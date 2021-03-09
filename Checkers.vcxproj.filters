@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Drawers">
+      <UniqueIdentifier>{278cd771-18af-4350-bed5-228344e9116d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFML">
+      <UniqueIdentifier>{aa46cb87-adc3-45f2-ad49-17c5b226fc53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Players">
+      <UniqueIdentifier>{451798ed-8d3a-4d05-8c3b-773f61fe0e0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Nodes">
+      <UniqueIdentifier>{44b88dcc-749a-4e7e-8b32-a8c709442b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{a0aadcd5-0476-4344-8b2e-1040242ee7ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Calculations">
+      <UniqueIdentifier>{bd1d7b9e-92e7-4699-bc64-3785aebb9b42}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CheckersDrawer.h">
+      <Filter>Drawers</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawer2D.h">
+      <Filter>Drawers</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h" />
+    <ClInclude Include="enums.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="SimpleStructs.h" />
+    <ClInclude Include="ThiccLine.h">
+      <Filter>SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Players</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputerPlayer.h">
+      <Filter>Players</Filter>
+    </ClInclude>
+    <ClInclude Include="HumanPlayer.h">
+      <Filter>Players</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="sequentialCpuNode.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="parallelCpuNode.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="CharHelpers.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Ellipse.h">
+      <Filter>SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomGame.h" />
+    <ClInclude Include="NextSimpleMoves.h">
+      <Filter>Calculations</Filter>
+    </ClInclude>
+    <ClInclude Include="NextFullMove.h">
+      <Filter>Calculations</Filter>
+    </ClInclude>
+    <ClInclude Include="Results.h">
+      <Filter>Calculations</Filter>
+    </ClInclude>
+    <ClInclude Include="parallelCpuNode2.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="parallelGpuNode.cuh">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="parallelGpuNode2.cuh">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="CudaErrorHelpers.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="CUDA_def.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SFMLHelpers.h">
+      <Filter>SFML</Filter>
+    </ClCompile>
+    <ClCompile Include="Deque.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="PlayRandomGameGpu.cu">
+      <Filter>Nodes</Filter>
+    </CudaCompile>
+    <CudaCompile Include="PlayRandomGameGpu2.cu">
+      <Filter>Nodes</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
