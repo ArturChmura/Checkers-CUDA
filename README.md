@@ -4,3 +4,4 @@
 * If a player is a human, click on pawn and then click on the tile when you want to move it. 
 * Captures are mandatory
 * Multiple captures in single moves are allowed
+* ![plot](./Screenshot_1.png)
